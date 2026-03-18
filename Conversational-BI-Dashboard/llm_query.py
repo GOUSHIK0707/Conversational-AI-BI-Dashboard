@@ -6,7 +6,7 @@ import re
 
 load_dotenv()
 
-genai.configure(api_key="AIzaSyBFwqdqG7rkzT9D8gdCtMOv85BLBPA7C-U")
+genai.configure(api_key="API KEY")
 
 model = genai.GenerativeModel("models/gemini-flash-latest")
 
